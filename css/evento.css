@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title h1 {
+    margin: 0;
+    margin-left: 2em;
+    margin-top: 2rem;
+    color: white;
+    position: relative;
+    font-size: 1.5rem;
+}
+.eventsPrc {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.events {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+
+}
+
+ h4 {
+    color: white;
+    border-bottom: 1px solid #F24738;
+    padding-bottom: 1rem; 
+}
+
+.descricao p {
+    margin-top: .5rem;
+    color: white;
+    font-size: .8em;
+}
+
+.image img {
+    border-radius: 0;
+    cursor: pointer;
+    width: 15rem;
+    height: 7rem;
+}
+@media all and (max-width: 768px) {
+    body:before {
+        height: 120%;
+    }
+}
+
+@media all and (max-width: 575px) {
+    body:before {
+        height: 200%;
+    }
+}

@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  filter: brightness(60%);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+img {
+  margin: 1rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+menu {
+  display: flex;
+}
+
+menu li {
+  list-style: none;
+  padding: 1rem;
+}
+
+menu a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin-bottom: 5rem;
+}
+
+.textCenter {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.redes {
+  margin-top: 5rem;
+  font-size: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.redes ul {
+  display: flex;
+  list-style: none;
+}
+
+.redes li {
+  padding: 2rem;
+}
+.redes a {
+  color: white;
+}
+
+.teste {
+  background-color: #f24738;
+  color: white;
+}
+
+@media all and (max-width: 1440px) {
+  .textCenter {
+    margin-top: 6em;
+  }
+  .redes {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .redes {
+    font-size: 2rem;
+  }
+}
+@media all and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .redes {
+    margin-top: 3rem;
+  }
+}
+
+@media all and (max-width: 575px) {
+  menu li {
+    padding: 0.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .redes {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 460px) {
+  img {
+    width: 5rem;
+  }
+
+  menu li {
+    padding: 0.3rem;
+  }
+
+  menu a {
+    font-size: 0.7rem;
+  }
+
+  .textCenter {
+    margin-top: 5em;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 321px) {
+  menu a {
+    font-size: 0.6rem;
+  }
+
+  .textCenter {
+    margin-top: 4em;
+  }
+
+  .redes {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+  }
+
+  .redes li {
+    padding: 1rem;
+  }
+}
+
+::-moz-selection { /* Firefox */
+  background: #f24738;
+}
+
+::selection {
+  background: #f24738;
+}

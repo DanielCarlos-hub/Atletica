@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+	
+  </head>
+  <body>
+    <div id="container">
+      <div class="form">
+          <div class="title">
+              <img src="img/attComp.jpeg" alt="">
+          </div>
+        <div class="form2">
+          <form method="POST">
+            <label>Usuário</label>
+            <input type="text" name="usuario" placeholder="Digite o nome de Usuário" />
+			<br>
+            <label>Senha</label>
+            <input type="password" name="senha" placeholder="Digite a sua Senha" />
+          </form>
+        </div>
+        <div class="btn1">
+          <button type="submit" onclick="return Login()">Entrar</button>
+          <a href="">Esqueci a Senha</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="login.js"></script>
+</html>
